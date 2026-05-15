@@ -1,0 +1,51 @@
+IaC (Infrastructure as Code) is the process of managing and provisioning infrastructure (servers, networks, databases, cloud resources, 
+etc.) using code instead of manually creating them through a UI.
+
+Interview:
+Infrastructure as Code (IaC) is the practice of provisioning and managing infrastructure using code and automation tools instead of manual
+processes.
+
+Example Without IaC
+
+Manually creating:
+
+EC2 instance
+Security groups
+VPC
+Load balancer
+
+through AWS Console step-by-step.
+
+Example With IaC
+
+Using a tool like:
+
+Terraform
+AWS CloudFormation
+Ansible
+
+to write code such as:
+
+resource "aws_instance" "web" {
+  ami           = "ami-12345"
+  instance_type = "t2.micro"
+}
+Then run one command:
+terraform apply
+
+and infrastructure is created automatically.
+
+Benefits of IaC
+Automation
+Faster deployments
+Consistency
+Version control with Git
+Easy recovery/recreation
+Reduced human error
+
+Popular               IaC Tools
+Tool	                Purpose
+Terraform	            Cloud infrastructure provisioning
+AWS CloudFormation	  AWS infrastructure automation
+Ansible	              Configuration management & automation
+Pulumi	              IaC using programming languages
