@@ -1,0 +1,49 @@
+Compariso with other tools - Terraform vs Ansible, Terraform vs Cloud Formation
+
+Terraform              vs                                    Ansible
+Feature	              Terraform	                             Ansible
+Purpose	              Infrastructure provisioning	           Configuration management & automation
+Used For	            Creating infrastructure	               Configuring servers/apps
+Example	              Create EC2, VPC, Load Balancer	       Install Docker, Jenkins, Nginx
+Language	            HCL (HashiCorp Configuration Language)  YAML
+Agent Required	      No	                                     No
+State Management	    Maintains infrastructure state	         No state management
+Best For	            Infrastructure as Code (IaC)	           Server configuration & deployment
+
+Simple Understanding
+Terraform → “Create infrastructure”
+Ansible → “Configure infrastructure”
+
+Real Example
+Terraform creates:
+EC2 instance
+Security groups
+VPC
+
+Ansible configures:
+Docker installation
+Jenkins setup
+Application deployment
+
+Terraform             vs                                     CloudFormation
+Feature	              Terraform	                             AWS CloudFormation
+Cloud Support	        Multi-cloud	                           AWS only
+Language	            HCL	                                   JSON / YAML
+Ease of Use	          Easier & cleaner syntax	               More verbose
+Provider Support	    AWS, Azure, GCP, Kubernetes, etc.	     AWS services only
+State File	          Uses Terraform state file	             Managed by AWS
+Flexibility	          High	                                 AWS-centric
+Vendor Lock-in	      No	                                   Yes (AWS only)
+
+Simple Understanding
+Terraform → Works across multiple cloud platforms
+CloudFormation → Native AWS IaC tool
+
+Terraform vs Ansible
+
+“Terraform is mainly used for provisioning infrastructure, while Ansible is used for configuration management and application deployment.”
+
+Terraform vs CloudFormation
+
+“Terraform is a multi-cloud Infrastructure as Code tool, whereas CloudFormation is AWS’s native infrastructure provisioning service
+limited to AWS resources.”
