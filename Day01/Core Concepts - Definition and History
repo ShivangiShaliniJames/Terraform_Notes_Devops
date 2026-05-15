@@ -49,3 +49,29 @@ Terraform	            Cloud infrastructure provisioning
 AWS CloudFormation	  AWS infrastructure automation
 Ansible	              Configuration management & automation
 Pulumi	              IaC using programming languages
+
+Why IaC matters? Why is it used?
+
+Terraform is used to automate the creation and management of infrastructure such as:
+
+EC2 instances
+VPCs
+Security groups
+Load balancers
+Databases
+Kubernetes clusters
+
+using code.
+
+Benefits of Terraform:
+
+Automation → Creates infrastructure automatically
+Consistency → Same setup every time
+Version Control → Infrastructure code can be stored in GitHub
+Multi-Cloud Support → Works with AWS, Azure, GCP, etc.
+Faster Deployment → Infrastructure created in minutes
+Reduced Human Errors → Avoids manual configuration mistakes
+Reusable Code → Same templates can be reused across projects
+
+Terraform is used to automate infrastructure provisioning using code, making deployments faster, consistent, scalable, and less 
+error-prone.
